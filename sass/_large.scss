@@ -1,4 +1,8 @@
 @media (min-width: 992px) {
+	h1.company-name {
+		font-size: 6rem;
+	}
+
 	.header {
 		grid-template-rows: auto repeat(2, 1fr);
 
@@ -94,5 +98,15 @@
 
 	.hamburger {
 		display: none;
+	}
+}
+
+@media (min-width: 1200px) {
+	.header {
+		&__text {
+			p {
+				font-size: 2.3rem;
+			}
+		}
 	}
 }
