@@ -152,6 +152,10 @@ h1.company-name {
 			color: $gold;
 		}
 	}
+
+	&__test {
+		color: red;
+	}
 }
 
 @import './small';

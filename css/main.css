@@ -158,6 +158,9 @@ h1.company-name {
 .nav__link:hover {
   color: #d6c78e;
 }
+.nav__test {
+  color: red;
+}
 
 @media (min-width: 992px) {
   h1.company-name {
